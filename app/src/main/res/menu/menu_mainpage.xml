@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_bottom_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_bottom_profile"
+        android:icon="@drawable/user"
+        android:iconTint="@color/white"
+        android:title="profile"
+        />
+
+
+
+    <item
+        android:id="@+id/navigation_bottom_about"
+        android:icon="@drawable/about1"
+        android:title="about"
+        />
+
+
+        <item
+            android:id="@+id/navigation_bottom_favourite"
+            android:icon="@drawable/favourite"
+            android:title="Favourite"
+            />
+
+
+</menu>

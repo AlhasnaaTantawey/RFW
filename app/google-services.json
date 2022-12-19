@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "267698746698",
+    "firebase_url": "https://finalversion-3d19f-default-rtdb.firebaseio.com",
+    "project_id": "finalversion-3d19f",
+    "storage_bucket": "finalversion-3d19f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267698746698:android:040b5745129e2d25e3bdb3",
+        "android_client_info": {
+          "package_name": "com.example.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267698746698-qct74q3rhp0mmj1g5p0nou501cghleid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbjRr-v9doI9RBcmdaDz-p1aZP8QwIqLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267698746698-qct74q3rhp0mmj1g5p0nou501cghleid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267698746698:android:d13a5335c2546db5e3bdb3",
+        "android_client_info": {
+          "package_name": "com.example.reducefoodewastebasic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267698746698-qct74q3rhp0mmj1g5p0nou501cghleid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbjRr-v9doI9RBcmdaDz-p1aZP8QwIqLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267698746698-qct74q3rhp0mmj1g5p0nou501cghleid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

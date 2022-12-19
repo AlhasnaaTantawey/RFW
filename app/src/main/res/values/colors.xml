@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#BB4291</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F3CF87</color>
+    <color name="yellow_200">#BB5298</color>
+    <color name="gray">#9c9c9c</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="transparent">#80FFFFFF</color>
+    <color name="whiteblue">#3AACBC</color>
+    <color name="blue">#22A3B5</color>
+    <color name="darkblue">#185E91</color>
+    <color name="yalloo">#FCCC55</color>
+    <color name="whiteblue2">#A6E1EA</color>
+    <color name="light_green">#73AA35</color>
+
+    <color name="pi_color">#93010101</color>
+
+    <color name="light_blue">#0F8BED</color>
+    <color name="gray2">#F0F3F5</color>
+    <color name="gray3">#CED6D5</color>
+
+    <color name="dark_gray">#74777A</color>
+    <color name="snackbar_error_color">#EC0606</color>
+    <color name="primary_color">#0F8BED</color>
+    <color name="primary_text_color">#3A3345</color>
+
+    <color name="colorText">#464646</color>
+    <color name="colorDarkGray">#464646</color>
+    <color name="colorTextBackground">#f5f5f5</color>
+    <color name="colorItemLeft">#E6E4E4</color>
+    <color name="colorItemRight">#813fd7</color>
+    <color name="colorWhite">#fff</color>
+
+    <color name="colorPrimaryDark">#813fd7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimary">#813fd7</color>
+
+    <color name="liteblack">#560B0A0B</color>
+
+
+    <color name="randomColor1">#0000FF</color>
+    <color name="randomColor2">#9374DE</color>
+    <color name="randomColor3">#FF8800</color>
+    <color name="randomColor4">#7F007F</color>
+    <color name="randomColor5">#5283F5</color>
+    <color name="randomColor6">#7F7F00</color>
+    <color name="randomColor7">#007F00</color>
+    <color name="randomColor8">#58BFAB</color>
+</resources>

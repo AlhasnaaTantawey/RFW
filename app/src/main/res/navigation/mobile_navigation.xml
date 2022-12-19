@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home2"
+  >
+
+    <fragment
+        android:id="@+id/navigation_home2"
+        android:name="com.example.reducefoodewaste.Fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_about2"
+        android:name="com.example.reducefoodewaste.Fragments.AboutFragment"
+        android:label="about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/navigation_profile2"
+        android:name="com.example.reducefoodewaste.Fragments.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+    <fragment
+        android:id="@+id/language_fragment"
+        android:name="com.example.reducefoodewaste.Fragments.languageFragment"
+        android:label="language"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/signout_fragment"
+        android:name="com.example.reducefoodewaste.Fragments.SignOutFragment"
+        android:label="language"
+        tools:layout="@layout/fragment_sign_out" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_favourite2"
+        android:name="com.example.reducefoodewaste.Fragments.SignOutFragment"
+        android:label="Favourite"
+        tools:layout="@layout/fragment_favourit" />
+</navigation>

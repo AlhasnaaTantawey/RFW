@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.reducefoodewaste.Fragments.AboutFragment">
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fooddon"
+        android:scaleType="fitXY"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/text_view"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:trimCollapsedText="show less"
+            app:trimExpandedText="show more"
+            app:trimLength="60"
+            android:fontFamily="sans-serif"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:text="@string/about_us2"
+            app:trimMode="trimModeLength"
+            app:colorClickableText="@color/teal_200"
+            />
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+
+
+
+
+

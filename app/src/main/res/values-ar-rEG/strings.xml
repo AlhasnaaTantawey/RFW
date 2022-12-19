@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_settings">لاعدادث</string>
+    <string name="menu_home">الصفحه الرئيسيه</string>
+    <string name="menu_slideshow">عرض الصفحه</string>
+    <string name="menu_gallery">الصور</string>
+    <string name="charity">جمعيه خيريه</string>
+    <string name="person">فرد</string>
+    <string name="login2">تسجيل</string>
+    <string name="unavaliable_meals">الواجبات الغير متاحه</string>
+    <string name="welcome">اهلا</string>
+    <string name="meals_shares">الواجبات كلها</string>
+    <string name="avaliable_meals">الواجبات المتاحه</string>
+    <string name="profile">البروفايل</string>
+    <string name="language">اللغة</string>
+    <string name="about">من نحن</string>
+    <string name="favorites">المفضلة</string>
+    <string name="logout">خروج</string>
+    <!--    for instruction-->
+
+    <!--    about-->
+    <string name="about_us2">بعد البحث وجدنا أن نسبة الفاقد من الطعام في العالم كله في عام 2021 بلغت 1.2 مليار طن ، وكانت النسبة الأكبر في الوطن العربي خاصة في مصر خاصة خلال شهر رمضان. وجد أن مخلفات الطعام تؤثر على البيئة حيث تؤدي إلى انبعاث غازات سامة مثل أول أكسيد الكربون. عندما بحثنا وجدنا أن نفايات الطعام تنتج عن الفنادق والمطاعم والمنازل وحفلات الزفاف والجنازات.
+ الهدف من هذا التطبيق هو تقليل الفاقد الغذائي والحفاظ على البيئة في إطار تنفيذ رؤية مصر 2030 وتحقيق أحد أهداف التنمية المستدامة (القضاء على الجوع والحفاظ على البيئة).</string>
+    <!-- meal details-->
+    <string name="mealdetails2">تفاصيل الوجبة:</string>
+    <string name="location2">الموقع:</string>
+    <string name="The_number_of_people">عدد الأشخاص:</string>
+    <string name="mealName"> اسم الوجبة</string>
+    <!--    activity_nav_header-->
+    <string name="Meals">وجبات </string>
+    <string name="Shared"> مشترك</string>
+    <string name="instructions">كل مستخدم لديه ثلاث وجبات: الإفطار والغداء والعشاء</string>
+    <!-- near_by_places-->
+    <string name="near">تعرف على عدد الأشخاص القريبين منك ...</string>
+    <string name="nearYou2">  عرض الاماكن القريبه منك</string>
+    <string name="next2">التالي</string>
+    <string name="type_message">اكتب رساله</string>
+    <string name="btn_sign_up">تسجيل دخول</string>
+
+    <string name="No">لا</string>
+    <string name="Yes">نعم</string>
+    <string name="Confirm"> تاكيد</string>
+    <string name="Cancel">الغاء</string>
+    <string name="Arabic">اللغه العربيه</string>
+    <string name="YouSuretoexit">هل تريد تاكيد الخروج؟</string>
+    <string name="create_your_account">"انشاء حساب "</string>
+    <string name="username">"اسم المستخدم "</string>
+    <string name="password">كلمه المرور</string>
+    <string name="login">تسجيل</string>
+    <string name="enteremail">ادخل البريد الالكتروني</string>
+    <string name="Fieldcantbeempty">لايمكن ان يكون هذا الحقل فارغا</string>
+    <string name="wrongpassword">ادخل كلمه المرور</string>
+    <string name="or_sign_up_with">اوالتسجيل عن طريق</string>
+    <string name="donot_have_account">"ليس لديك حساب؟ "</string>
+    <string name="sign_up">سجل عن طريق</string>
+    <string name="forget_password">نسيت كلمه المرور؟</string>
+    <string name="sharefoodfor">مشارك بالطعام من</string>
+    <string name="sharefood">شارك طعامك</string>
+    <string name="Home">منزل</string>
+    <string name="Ocassion">مناسبه</string>
+    <string name="Restaurant">مطعم</string>
+    <string name="Hotel">فندق</string>
+    <string name="send">ارسال</string>
+    <string name="enter_your_email_address_below_toreceive_password_sent_instruction">ادخل بريدك الالكتروني في الاسفل لتصلك رساله</string>
+    <string name="removed">تم الانتهاء منه</string>
+    <string name="apply">تفعيل</string>
+    <string name="normalafterwaiting">قيد الانتظار</string>
+    <!--  Hi ,first need to specific location   -->
+    <string name="Hi_dear">مرحبا عزيزي</string>
+    <string name="First_we_need_to_Know_your_location" > اولا نريد تحديد موقعك</string>
+    <string name="To_show_you_nearby_listing_And_how_many_neighbours_are_waiting_to_share_with_you"> حتي نوضح لك عددالاشخاص الاقرب لموقعك</string>
+    <string name="btnOK_lets_go" >حسنا لنبدا</string>
+    <!--    set homeLocation-->
+    <string name="textforLocation" >حددموقعك</string>
+    <string name="textshareloction">لاتقلق لا تم مشاركه موقعك مع اي شخص اخر</string>
+    <string name="edithintsearchhere">ابحث هنا</string>
+    <string name="btnforlocation"> ارسل موقعك</string>
+    <!--    set location for people near by-->
+    <string name="txt_loction_for_people_near_by"></string>
+    <string name="show_people">إظهار أقرب 50  شخص لموقعك</string>
+    <string name="near_you">الاقرب لموقعك</string>
+    <string name="num_of_people">عدد الاشخاص</string>
+    <string name="btn_next">التالي</string>
+    <!-- create profile -->
+    <string name="txt_profile">بروفايل</string>
+    <string name="edit_yourname_profile" >اسم المستخدم </string>
+    <string name="enter_yourname_profile"> ادخل الاسم ! </string>
+    <string name="edit_Email_profile" >ايميل المستخدم</string>
+    <string name="enter_youemail_profile">ادخل الايميل ! </string>
+    <string name="edit_number_profile">رقم المستخدم</string>
+    <string name="enter_number_profile">ادخل الرقم !</string>
+    <string name="btn_profile" > انشاء</string>
+    <!-- -->
+    <string name="start_timer">ابدأ العد</string>
+
+    <string name="to">الى</string>
+    <string name="from">من(اختيارى)</string>
+
+    <string name="title_activity_maps_set_location" >صفحه تحديد الموقع</string>
+    <string name="title_activity_maps_loction_for_near_by" >صفحه تحديد موقع الاشخاص بالقرب منك</string>
+    <!--  rec chat -->
+    <string name="edit_enter_message_chat" >ادخل الرساله</string>
+    <string name="btn_send_chat" > ارسال الرساله</string>
+    <!-- item of chat -->
+    <string name="txt_June_10_item">10 يونيو</string>
+    <string name="txt_User_Icon_item">أيقونة المستخدم</string>
+    <string name="txt_John_Grady_Cole_item">اسم المرسل </string>
+    <string name="txt_send_Hi_Menaa_item">مرحبا منه</string>
+    <string name="txt_time_item">وقت الارسال</string>
+    <string name="txt_response_Hi_item">مرحبا</string>
+    <!--    for correct-->
+    <string name="Success" tools:ignore="ExtraTranslation"> بالفعل نجحت </string>
+    <string name="youhavesuccessfully" tools:ignore="ExtraTranslation"> تم الارسال بنجاح</string>
+    <!--    for InstructionsActivity-->
+<string name="Remember" tools:ignore="ExtraTranslation">تذكر</string>
+    <string name="BefriendlyAndpolite" tools:ignore="ExtraTranslation">كن ودودا ومحب وتعامل بأدب</string>
+    <string name="sharingismorefunfor" tools:ignore="ExtraTranslation">مشاركة الطعام شئ جميل وممتع</string>
+    <string name="everyonethisway" tools:ignore="ExtraTranslation">لكل شخص بهذه الطريقة</string>
+    <string name="Next" tools:ignore="ExtraTranslation">التالى</string>
+    <!--    for error-->
+    <string name="Error" tools:ignore="ExtraTranslation">حدث خطأ</string>
+    <string name="Ooopssomethingwentwrong" tools:ignore="ExtraTranslation">للأسف يمكن أن يكون هناك خطأ</string>
+    <string name="TRYAGAIN" tools:ignore="ExtraTranslation">حاول مرة اخرى</string>
+    <!--    for create new password-->
+    <string name="create_new_password" tools:ignore="ExtraTranslation">أنشأ رقم سري جديد</string>
+    <string name="your_new_password_must_be_different_from" tools:ignore="ExtraTranslation">الرقم السري الجديد يجب أن يكون مختلف عن </string>
+    <string name="previous_used_passwords" tools:ignore="ExtraTranslation">الرقم السري القديم</string>
+    <string name="confirmpassword" tools:ignore="ExtraTranslation">تأكيد الرمز</string>
+    <string name="new_password" tools:ignore="ExtraTranslation"> رمز جديد</string>
+    <string name="create" tools:ignore="ExtraTranslation">إنشاء</string>
+    <!-- for chick mail -->
+    <string name="chick_mail" tools:ignore="ExtraTranslation">افحص البريد الالكتروني الخاص بك</string>
+    <string name="password1" tools:ignore="ExtraTranslation">لقد ارسلنا تعليمات استعادة كلمة المرور</string>
+    <string name="ok_button" tools:ignore="ExtraTranslation">اضف</string>
+    <string name="share_food" tools:ignore="ExtraTranslation">مشاركة الطعام</string>
+    <string name="up_photo" tools:ignore="ExtraTranslation">قم بتحميل الصوره</string>
+    <string name="title" tools:ignore="ExtraTranslation">عنوان الطعام</string>
+    <string name="detail" tools:ignore="ExtraTranslation">تفاصيل الطعام</string>
+    <string name="location" tools:ignore="ExtraTranslation">الموقع</string>
+    <string name="person1" tools:ignore="ExtraTranslation">عددالاشخاص</string>
+    <string name="are_you_sure">هل تود الخروج؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="hours">عدد الساعات</string>
+    <string name="increment" tools:ignore="ExtraTranslation">+</string>
+    <string name="decrement" tools:ignore="ExtraTranslation">-</string>
+    <string name="num" tools:ignore="ExtraTranslation">1</string>
+    <string name="share_food_bt" tools:ignor="ExtraTranslation">مشاركة الطعام</string>
+    <string name="tv1" tools:ignore="ExtraTranslation">0</string>
+    <string name="tv2" tools:ignore="ExtraTranslation">اعجبني</string>
+    <string name="tv3" tools:ignore="ExtraTranslation">مشاركه</string>
+    <string name="tv4" tools:ignore="ExtraTranslation">مصطفي</string>
+    <string name="tv6" tools:ignore="ExtraTranslation">شخص</string>
+    <string name="tv7" tools:ignore="ExtraTranslation"> اضافها منذ اسبوعين </string>
+    <string name="tv8" tools:ignore="ExtraTranslation">الحجم</string>
+    <string name="tv9" tools:ignore="ExtraTranslation">اختيار الحجم</string>
+    <string name="tv10" tools:ignore="ExtraTranslation">في اي وقت</string>
+    <string name="tv11" tools:ignore="ExtraTranslation">اطلب ذلك</string>
+    <string name="call_us" tools:ignore="ExtraTranslation">اتصل بنا..</string>
+    <string name="we_are_happy_to_recive_your_comments_and_suggestion" tools:ignore="ExtraTranslation">نحن سعداء لاستقبال تعليقاتكم </string>
+    <string name="call" tools:ignore="ExtraTranslation">اتصل</string>
+    <string name="user_name" tools:ignore="ExtraTranslation">اسم المستخدم</string>
+    <string name="e_mail" tools:ignore="ExtraTranslation">البريد الالكتروني</string>
+    <string name="phone_number" tools:ignore="ExtraTranslation">رقم الهاتف</string>
+    <string name="the_reason" tools:ignore="ExtraTranslation">السبب</string>
+    <string name="send_bt" tools:ignore="ExtraTranslation">ارسال</string>
+    <string name="go" tools:ignore="ExtraTranslation">اذهب</string>
+    <string name="title_activity_maps">title_activity_maps</string>
+    <string name="hour_number2">عدد الساعات</string>
+    <!--    sign-up-->
+
+    <string name="t1">أهلا !</string>
+    <string name="t2">انشاء حساب</string>
+    <string name="username1">اسم المستخدم</string>
+    <string name="password2">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="email">ايميل</string>
+    <string name="text">تحقق من ادخال البيانات بشكل صحيح!</string>
+    <string name="sign_up1">تسجيل الدخول</string>
+    <string name="signup_with"> أو التسجيل عن طريق</string>
+
+    <!--    UseAppAsDonerOrNeedFoodActivity-->
+    <string name="use_as">استخدام التطبيق ك :</string>
+    <string name="radio_btn1"> متبرع بالغذاء</string>
+    <string name="radio_btn2">شخص ما يحتاج الطعام</string>
+    <string name="btn3">ارسال</string>
+    <!--    ensure_reserve-->
+    <string name="activity_main">تأكيد الحجز</string>
+    <string name="tx1">مصطفي</string>
+    <string  name="request">تم الطلب بنجاح (:</string>
+    <string name="tx2">شوكلات</string>
+    <string name="distance">يبعد 106.4 كم</string>
+    <string name="t3">أهلا مصطفي</string>
+    <string name="send1">ارسال</string>
+    <string name="active">نشط</string>
+    <string name="and_suggestion">واقتراحاتكم</string>
+    <string name="the_e_mail">البريد الالكتروني</string>
+    <string name="to_your_email"> الي بريدك الالكتروني</string>
+    <string name="request_this">اطلب ذلك</string>
+    <string name="decide_who_needs_food"> من يحتاج الى الطعام؟</string>
+    <string name="you_must_choose">يجب ان تختار!</string>
+<string name="requred_field"> اضف الرمز</string>
+    <string name="requred_field1">اضف الرمز</string>
+    <string name="don_t_match"> لا يوجد تطابق </string>
+    <!--    for  correct-->
+    <string name="text1" tools:ignore="MissingTranslation">Success!</string>
+    <string name="text2" tools:ignore="MissingTranslation"> تم بنجاح </string>
+    <!--    for error-->
+    <string name="text7" tools:ignore="MissingTranslation">خطأ!</string>
+    <string name="text8" tools:ignore="MissingTranslation">عفوا هناك خطأ ما</string>
+    <string name="button_bt" tools:ignore="MissingTranslation">حاول مجددا</string>
+    <string name="don_t_match_the_constraint" tools:ignor="MissingTranslation"> الرمز لايطابق الشروط !</string>
+    <string name="don_t_match_the_constraint1" tools:ignor="MissingTranslation">البريد الالكتروني لايطابق الشروط !</string>
+    <string name="new_pass" tools:ignor="MissingTranslation"> الرقم السري الجديد يجب ان يتكون من اي حرف و رمز خاص مثل:"#$%@" </string>
+    <string name="new_pass1" tools:ignor="MissingTranslation">ولا يوجد به فراغات والا يكون اقل من خمسة حروف </string>
+    <string name="add_the_e_mail_pleas">اضف البريد الالكتروني رجاء</string>
+    <string name="pleas_provide_valid_e_mail">رجاء قم بكتابة بريد الكتروني صالح</string>
+    <string name="resend_the_e_mail">اعادة ارسال البريد الاكتروني ؟</string>
+    <string name="remember">تذكر....</string>
+    <string name="be_friendly_and_polite"> يجب ان تكون ودودا و مهذب</string>
+    <string name="sharing_is_more_fun_for">المشاركه اكثر متعه</string>
+    <string name="everyone_this_way">لكل شخص بهذه الطريقه</string>
+    <string name="next">التالي</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fb_login_protocol_scheme">fb720565802405343</string>
+    <string name="facebook_client_token">c66ecc0efa51312eb95845ad0f1a38b3</string>
+    <string name="chooseyourorderstate">choose your order state</string>
+
+    <string name="htext1">يجب ادخال الاسم!</string>
+    <string name="htext2">يجب ان يكون الباسورد قوى !</string>
+    <string name="resend_an_e_mail">اعاده ارسال الايميل؟</string>
+    <string name="_00_01_00">00:01:00</string>
+    <string name="gmail_com">****@gmail.com</string>
+    <string name="save">حفظ</string>
+    <string name="chat_with_me">تواصل معى </string>
+    <string name="searchinFragment"> ابحث باسم الوجبه </string>
+    <!--    //filter-->
+    <string name="action_person">فرد</string>
+    <string name="action_charity"> مجموعة</string>
+    <string name="action_vegetables">خضراوات</string>
+    <string name="action_fruit">فاكهة</string>
+    <string name="action_drink">مشروبات</string>
+    <string name="action_other">أخرى</string>
+    <string name="you_must_choose_food_picture">يجب اختيار صوره طعام!</string>
+    <!--    spinner text-->
+    <string name="text_spinner"> نوع الطعام</string>
+    <string name="enter_a_valid_email_pleas">ادخل بريد الكتروني صالح</string>
+    <string name="enter_a_valid_password_pleas">الرمز السري لابد ان يحتوي علي حرف كبير,حرف صغير,حرف خاص وارقام</string>
+    <string name="food_title">عنوان الوجبه</string>
+    <string name="app_name">RFW</string>
+    <!--    spinner item-->
+    <string-array name="type_food">
+        <item>نوع الطعام</item>
+        <item> خضروات</item>
+        <item> الفاكهة</item>
+        <item> مشروبات</item>
+        <item> أخري</item>
+    </string-array>
+
+</resources>

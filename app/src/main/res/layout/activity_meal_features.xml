@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fafafa"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true"
+    tools:context="com.example.reducefoodewaste.Ui.MealFeaturesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/smokingpaper_imageView_meal"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/smokingpaper_textView_mealname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginBottom="16dp"
+                    android:foreground="@android:color/transparent"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="mealName "
+                    android:textSize="25sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:weightSum="3.8">
+
+
+                <ImageView
+                    android:id="@+id/mimg"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/person"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:id="@+id/list_view_mainPage_textView_userName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:fontFamily="sans-serif-black"
+                    android:maxLength="10"
+                    android:text="alhasnaa"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/fav"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:drawableStart="@drawable/favorite"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:fontFamily="sans-serif-black"
+                    android:maxLength="10"
+                    android:text="1"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/view_counter"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableStart="@drawable/eye"
+                    android:drawablePadding="@dimen/_10sdp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="0"
+                    android:textSize="@dimen/_10ssp"
+                    app:layout_constraintStart_toEndOf="@+id/list_view_mainPage_textView_userName"
+                    app:layout_constraintTop_toBottomOf="@+id/smokingpaper_textView_mealname" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:id="@+id/smokingpaper_textView_mealDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/mealdetails2"
+                android:textColor="@color/teal_200"
+                android:textSize="18sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="50dp"
+                app:strokeColor="#808080"
+                app:strokeWidth="1dp">
+
+                <TextView
+                    android:id="@+id/smokingpaper_textView_DetailsMeal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:paddingStart="10dp"
+                    android:text="alhasnaa elsayed ali mohmed  tanatwey fgfgghghghghghhghjkjkkkjkjkjkjkkkkkk jhjhjh jhjhjhjh jhhnnnnnnn
+ njjhjjjhjhjhjhhh"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:id="@+id/smokingpaper_textView_location1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/location2"
+                android:textColor="@color/teal_200"
+                android:textSize="18sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="50dp"
+                app:strokeColor="#808080"
+                app:strokeWidth="1dp">
+
+                <TextView
+                    android:id="@+id/smokingpaper_textView_Location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:text="location location location"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:id="@+id/smokingpaper_textView_personnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/person1"
+                android:textColor="@color/teal_200"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/smokingpaper_NumberPerson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="sans-serif"
+                android:text="0 "
+                android:textColor="@android:color/black"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/smokingpaper__button_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:gravity="center"
+                android:layout_marginEnd="70dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif"
+                android:textSize="16sp"
+                android:backgroundTint="@color/teal_200"
+                android:textStyle="bold"
+                android:text="@string/request_this"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:layout_marginEnd="10dp"
+                android:id="@+id/smokingpaper_textView_chatWithMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:text="@string/chat_with_me"
+                android:textColor="@color/teal_200"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

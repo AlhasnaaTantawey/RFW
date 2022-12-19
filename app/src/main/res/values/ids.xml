@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mapSetLocation" type="id" />
+    <item name="MapSetLocation_button_bt" type="id" />
+    <item name="instructions" type="id" />
+    <item name="mapsSetLocationForNearBy_button_bt" type="id" />
+    <item name="button_apply" type="id" />
+</resources>
